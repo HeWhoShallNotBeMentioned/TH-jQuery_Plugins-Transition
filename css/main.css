@@ -344,4 +344,14 @@ footer {
 
 header {
   background-color: white;
+  transition: 1s;
+}
+
+.is-sticky header {
+  background-color: black;
+}
+
+.is-sticky header a {
+  background-color: dodgerblue;
+  border-radius: 5px;
 }

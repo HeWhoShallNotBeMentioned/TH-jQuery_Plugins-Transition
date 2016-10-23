@@ -5,3 +5,5 @@ $(".animsition").animsition({
   inDuration: 1000,
   outDuration: 600
 });
+
+$('.header').sticky();
