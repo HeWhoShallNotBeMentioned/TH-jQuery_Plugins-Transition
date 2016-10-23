@@ -7,6 +7,11 @@ $(".animsition").animsition({
 });
 
 $('.header').sticky();
+$('#work').sticky({
+  topSpacing: 64,
+  getWidthFrom: '.container',
+  responsiveWidth: true
+});
 
  $('.header').on('sticky-start', function() {
   $('.description').html('We build <strong>great</strong> apps.');
@@ -14,4 +19,12 @@ $('.header').sticky();
 
  $('.header').on('sticky-end', function() {
   $('.description').html('We build apps.');
+ });
+
+ $('#work').on('sticky-start', function() {
+   $('#work').append("<span class='email'><a href='mailto:webmaster@example.com'>  EMail Us </a></span>");
+ });
+
+ $('#work').on('sticky-end', function() {
+   $(".email").remove();
  });

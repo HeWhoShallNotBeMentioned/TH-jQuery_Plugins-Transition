@@ -355,3 +355,8 @@ header {
   background-color: paleturquoise;
   border-radius: 5px;
 }
+
+.is-sticky header #work {
+  background-color: white;
+
+}
