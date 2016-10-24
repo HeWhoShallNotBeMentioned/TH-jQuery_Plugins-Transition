@@ -28,3 +28,11 @@ $('#work').sticky({
  $('#work').on('sticky-end', function() {
    $(".email").remove();
  });
+
+ $(".slides").slick({
+   fade: true,
+   autoplay: true,
+   autoplaySpeed: 1800,
+   arrows: false,
+   dots: true
+ });
