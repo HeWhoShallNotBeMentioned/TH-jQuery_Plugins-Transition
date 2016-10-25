@@ -342,21 +342,25 @@ footer {
   }
 }
 
-header {
+.header {
   background-color: white;
   transition: 1s;
 }
 
-.is-sticky header {
+.is-sticky .header {
   background-color: black;
+  z-index: 1000 !important;
 }
 
-.is-sticky header a {
+.is-sticky .header a {
   background-color: paleturquoise;
   border-radius: 5px;
 }
 
-.is-sticky header #work {
+.is-sticky .header #work {
   background-color: white;
+}
 
+.slides {
+  position: relative;
 }
