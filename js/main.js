@@ -36,3 +36,11 @@ $('#work').sticky({
    arrows: false,
    dots: true
  });
+
+ $(".teamSlides").slick({
+   autoplay: true,
+   autoplaySpeed: 3000,
+   dots: true,
+   slidesToShow: 4,
+   slidesToScroll: 4
+ });

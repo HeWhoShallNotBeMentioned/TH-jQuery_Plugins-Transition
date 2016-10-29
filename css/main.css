@@ -364,3 +364,8 @@ footer {
 .slides {
   position: relative;
 }
+
+.slick-dots button:before {
+ color: black !important;
+
+}
